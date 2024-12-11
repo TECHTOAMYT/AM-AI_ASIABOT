@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // OpenAI or Custom AI API Key Setup
-const OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY_HERE';
+const OPENAI_API_KEY = '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';
 
 app.post('/ask', async (req, res) => {
     const { question } = req.body;
